@@ -1,0 +1,12 @@
+npm create vite@latest gartenapp -- --template react
+cd gartenapp
+
+npm install
+
+# Tailwind
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+# Keine weiteren Dependencies nötig!
+# date-fns ist optional – wir nutzen native JS Date-Methoden
+*/
