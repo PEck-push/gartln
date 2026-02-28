@@ -1,10 +1,7 @@
-// ============================================================
-// src/App.jsx
-// ============================================================
 import { useState } from "react";
 import Dashboard from "./pages/Dashboard";
 import Lexikon from "./pages/Lexikon";
-import MeinGarten from "./pages/MeinGarten";
+import MeinGarten from "./pages/Mein Garten"; 
 import Rasen from "./pages/Rasen";
 import { useGarden } from "./hooks/useGarden";
 import { plants } from "./data/plants";
