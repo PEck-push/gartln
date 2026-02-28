@@ -1,4 +1,4 @@
-împort { useState } from "react";
+import { useState } from "react";
 import { kategorien, aufgabenTypen } from "../data/plants";
 
 function Lexikon({ plants, gardenHook }) {
