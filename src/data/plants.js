@@ -1131,8 +1131,6 @@ export const plants = [
       },
     ],
   },
-// --- NEUE PFLANZEN AB HIER ---
-
   {
     id: "prunus-lusitanica-angustifolia",
     name: "Portugiesischer Lorbeer",
@@ -2006,6 +2004,9 @@ export const plants = [
 
 // Hilfsfunktionen
 export const kategorien = [...new Set(plants.map((p) => p.kategorie))];
+
+// Alle Bodenarten (für spätere Filter-Erweiterung)
+export const bodenArten = [...new Set(plants.map((p) => p.bodenArt))];
 
 export const aufgabenTypen = {
   Schnitt: { label: "Schnitt", icon: "✂️", color: "orange" },
