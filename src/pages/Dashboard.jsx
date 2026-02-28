@@ -1,4 +1,4 @@
-import { useWeather, getWeatherInfo } from "../hooks/useWeather";
+import { useWeather, getWeatherInfo } from "../utils/useWeather";
 import {
   getTasksForGarden,
   getTasksForMonth,
